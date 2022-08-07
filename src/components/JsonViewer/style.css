@@ -1,0 +1,49 @@
+.json-viewer {
+    width: 100%;
+}
+
+.json-viewer .title {
+    color: #484e51;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.json-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.json-viewer table thead tr {
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+    background: #f8f8f8;
+    color: #484e51;
+}
+
+.json-viewer table tbody tr {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.json-viewer table tr th,
+.json-viewer table tr td {
+    padding: 6px 10px;
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.json-viewer table tr.sub-row > td {
+    padding: 15px 0 15px 20px;
+}
+
+.json-viewer i {
+    color: #484e51;
+}
+
+.json-viewer .expand-icon {
+    transition: all ease-in-out 0.2s;
+}
+.json-viewer .expand-icon.expanded {
+    transform: rotate(90deg);
+}

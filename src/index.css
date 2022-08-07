@@ -1,0 +1,51 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
